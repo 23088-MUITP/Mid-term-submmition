@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+
+  
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+
+.header h1 {
+    font-size: 50px;
+  }
+  
+
+.news{
+    float: left;
+    width: 75%;
+
+}
+
+.images{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+
+
+.sidebar{
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+.pins{
+    background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+
+ 
+  
+
+  @media screen and (max-width: 800px) {
+    .news, .sidebar{  
+      width: 100%;
+      padding: 0;
+    }
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  
